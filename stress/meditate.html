@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="../styles/main.css">
-    <title>Shape Up!</title>
+    <title>Shape Up! | Meditation</title>
 </head>
 
 <body>
@@ -19,38 +19,49 @@
 	
      <nav id="nav_menu">
         <ul>
-            <li><a href="index.html" class="current">Home</a></li>
-            <li><a href="strength.html">Strength training</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="strength.html">Strength Training</a></li>
             <li><a href="cardio.html">Cardio Exercises</a></li>
-            <li><a href="stress.html">Stress Relief</a></li>
+            <li><a href="stress.html" class="current">Stress Relief</a></li>
             <li><a href="diet/index.html">Healthy Diets</a></li>
         </ul>
     </nav>
     <main>
         <aside>
-            <h2>Additional resources</h2>
+            <h2>Why Meditate?</h2>
             <ul>
-                <li><a href="text/stress_tips.txt">Physical activity and health</a></li>
-                <li><a href="text/prepare.txt">Stretching exercises</a></li>
-                <li><a href="text/strength_training.txt">Strength training</a></li>
-                <li><a href="cardio/index.html">Cardiovascular training</a></li>
-                <li><a href="text/vipassana.txt">Yoga workout</a></li>
+                <li><strong>Be happy:</strong> Meditation causes the pituitary gland in your brain to secrete endorphins that help elevate mood and have a positive effect on the whole body.</li>
+                <li><strong>Reduce stress:</strong> Endorphins also reduce stress levels in the brain.</li>
+                <li><strong>Focus:</strong> Through meditation, you can learn self-discipline so your mind can focus with increased efficiency.</li>
+                <li><strong>Sleep better:</strong> Scientific studies have shown that those who meditate enhance their slow-wave sleep pattern which can help fight insomnia.</li>
+                <li><strong>Lower blood pressure:</strong> Research has also shown that meditation can reduce blood pressure, both in the short term and later in life.</li>
+                <li><strong>Pain relief:</strong> The long-term practice of meditation can lead to physical changes in the brain.</li>
             </ul>
         </aside>
+
+        <section>
+            <h2>What is Meditation?</h2>
+            <p>
+                Meditation is one path toward transforming the mind. Buddhist meditation practices encourage and develop concentration, clarity, and emotional positivity. When you begin a meditation practice, you may learn the patterns and habits of your mind. Meditation offers you a way to cultivate new and more positive ways to approach the things you do throughout your day. Meditation can have a transformative effect and can lead to positive changes as well as a new understanding of life.
+            </p>
+            <h3>Video of a woman meditating</h3>
+            <video controls>
+                <source src="../videos/meditation_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <h3>Choose your meditation music</h3>
+            <audio controls>
+                <source src="../audio/meditation_music_1.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <audio controls>
+                <source src="../audio/meditation_music_2.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </section>
     </main>
 	<footer>
-        (c) 2022 Shape Up!
+        &copy; 2022 Shape Up!
     </footer>
-    <script>
-        $(document).ready(function() {
-            $("#nav_menu").slicknav({
-                prependTo: '#mobile_menu',
-                label: '',
-                closedSymbol: '>',
-                openedSymbol: '<',
-                allowParentLinks: true
-            });
-        });
-    </script>
 </body>
 </html>
